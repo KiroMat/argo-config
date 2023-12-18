@@ -15,7 +15,7 @@ spec:
       containers:
       - name: myapp
         # image: kirodzakub/k8s-web-hello
-        image: kirodzakub/k8s-web-nginx
+        image: kirodzakub/k8s-web-hello
         resources:
           limits:
             memory: "128Mi"
